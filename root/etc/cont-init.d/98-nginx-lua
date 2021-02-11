@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+# Determine if setup is needed
+apk add --no-cache \
+  nginx-mod-http-lua 
